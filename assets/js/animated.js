@@ -5,7 +5,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("animate__backInDown");
+				$(this).addClass("animate__rollIn");
 			}
 		});
 	});	
@@ -26,7 +26,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("animate__backInUp animate__delay-2s");
+				$(this).addClass("animate__flipInX animate__delay-2s");
 			}
 		});
 	});	
@@ -36,7 +36,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("animate__rotateIn animate__delay-3s");
+				$(this).addClass("animate__jackInTheBox animate__delay-3s");
 			}
 		});
 	});
