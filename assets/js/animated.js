@@ -5,7 +5,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("fadeInDown");
+				$(this).addClass("animate__fadeInDown");
 			}
 		});
 	});	
@@ -15,7 +15,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("fadeIn delay-1s");
+				$(this).addClass("animate__fadeIn animate__delay-1s");
 	            //$(this).addClass("animate__delay-3s");
 	        }
 	    });
@@ -26,7 +26,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("fadeIn delay-2s");
+				$(this).addClass("animate__fadeIn animate__delay-2s");
 			}
 		});
 	});	
@@ -36,7 +36,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("fadeIn delay-3s");
+				$(this).addClass("animate__fadeIn animate__delay-3s");
 			}
 		});
 	});
@@ -46,7 +46,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("fadeInLeft");
+				$(this).addClass("animate__fadeInTopLeft");
 			}
 		});
 	});	
@@ -56,7 +56,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("fadeInRight delay-1s");
+				$(this).addClass("animate__fadeInBottomRight animate__delay-1s");
 			}
 		});
 	});
