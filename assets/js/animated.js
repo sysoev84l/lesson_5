@@ -5,7 +5,7 @@ $(function () {
 
 			var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("animate__rollIn");
+				$(this).addClass("animate__zoomIn");
 			}
 		});
 	});	
